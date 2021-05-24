@@ -1,0 +1,15 @@
+.Teacher {
+  position: relative;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.Teachers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  z-index: 100;
+
+}

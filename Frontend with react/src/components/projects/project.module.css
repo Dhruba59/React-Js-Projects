@@ -1,0 +1,43 @@
+.Project{ 
+  position: relative;
+}
+.Toggle {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+
+
+  border: lightcyan;
+  border-radius: 2px;
+  border-width: 2px;
+  border-style: dotted;
+
+}
+
+.h6{
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.Accordion{
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.Collapse{
+  margin: 2%;
+  padding:1%;
+  
+}
+.Tags{
+  font-size: 13px;
+}
+
+.TitleOfCard{
+  align-self: center;
+
+}
