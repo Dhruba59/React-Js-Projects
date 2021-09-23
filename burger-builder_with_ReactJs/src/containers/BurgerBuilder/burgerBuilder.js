@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modals/Modal';
@@ -12,6 +12,51 @@ const IngredientsPrice = {
   salad: 20,
   bacon: 20
 }
+
+
+
+// const burgerBuilder =() =>{
+
+//   const [Ingredients, setIngredients] = useState({
+//     cheese: 0,
+//     meat: 0,
+//     bacon: 0,
+//     salad: 0
+//   });
+
+//   const [totalPrice, setTotoalPrice] = useState(50);
+//   const [Perchaseable, setPerchaseable] = useState(false);
+//   const [OrderButtonClicked, setOrderButtonClicked] = useState(false);
+
+//   return(
+//     <>
+        
+//         <Modal show={this.state.OrderButtonClicked} modalClosed={this.OrderHandler}>
+//           <UpdateSummary
+//             IngredientsList={this.state.Ingredients}
+//             price={this.state.TotalPrice}
+//             cancel={this.OrderHandler}
+//             continue={this.storeOnFirebase}/>
+//         </Modal>
+
+//         <Burger Ingredients={this.state.Ingredients} />
+//         <div><BuildControls
+//           IngAdded={this.addIngredients}
+//           IngRemoved={this.removeIngredients}
+//           disableInfoArray={disableInfoArr}
+//           price={this.state.TotalPrice}
+//           orderDisabled={this.state.Perchaseable}
+//           ordered={this.OrderHandler} /></div>
+
+//       </>
+//   );
+// }
+
+
+
+
+
+
 
 
 class burgerBuilder extends Component {
